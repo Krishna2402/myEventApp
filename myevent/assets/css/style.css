@@ -1,0 +1,58 @@
+/* Ensures the body has a gradient background */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);  /* Gradient from pink to orange */
+    height: 100vh;  /* Ensures the body takes up the entire viewport height */
+    margin: 0;  /* Removes any default margin from the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the container to make it stand out */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);  /* Light transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;  /* Limits the width of the form to avoid it becoming too wide */
+}
+
+/* Styling for headers */
+h2 {
+    color: #ff6347;  /* Vibrant color */
+    font-size: 2.5rem;  /* Larger title */
+    margin-bottom: 20px;
+    font-weight: bold;  /* Bold text */
+}
+
+/* Styling for inputs and buttons */
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;  /* Green button */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+/* Styling for links */
+a {
+    color: #007bff;  /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
